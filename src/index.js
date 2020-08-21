@@ -3,9 +3,7 @@ import ReactDOM from 'react-dom';
 import { ThemeProvider, createGlobalStyle } from 'styled-components';
 
 import App from './App';
-
-// eslint-disable-next-line import/no-webpack-loader-syntax
-const theme = require('sass-extract-loader?{"plugins":["sass-extract-js"]}!./scss/_index.scss');
+import { DefaultTheme } from './theme';
 
 const GlobalStyle = createGlobalStyle`
 
@@ -26,7 +24,7 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 ReactDOM.render(
-  <ThemeProvider theme={theme}>
+  <ThemeProvider theme={DefaultTheme}>
     <GlobalStyle />
     <App />
   </ThemeProvider>,
