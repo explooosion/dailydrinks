@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.js": "/dailydrinks/static/js/main.fb12a18e.chunk.js",
+    "runtime-main.js": "/dailydrinks/static/js/runtime-main.c6fe6444.js",
+    "static/js/2.6baa607e.chunk.js": "/dailydrinks/static/js/2.6baa607e.chunk.js",
+    "index.html": "/dailydrinks/index.html",
+    "precache-manifest.4d1a8b44f0d4d420df0e9466d68d482b.js": "/dailydrinks/precache-manifest.4d1a8b44f0d4d420df0e9466d68d482b.js",
+    "service-worker.js": "/dailydrinks/service-worker.js",
+    "static/js/2.6baa607e.chunk.js.LICENSE.txt": "/dailydrinks/static/js/2.6baa607e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c6fe6444.js",
+    "static/js/2.6baa607e.chunk.js",
+    "static/js/main.fb12a18e.chunk.js"
+  ]
+}
